@@ -9,7 +9,7 @@
 <body>
 <%
 session.invalidate();
-response.sendRedirect("home.html");
+response.sendRedirect("index.html");
 %>
 
 </body>

@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Join Us</title>
         <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
-        <link href="assets/css/styles1.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/styles2.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 	<div class="container">
