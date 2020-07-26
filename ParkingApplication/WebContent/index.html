@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="shortcut icon" href="assets/images/logo/logo-dark.png">
+<title>Parking</title>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/vendors/menu/src/main.menu.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="assets/css/utilities.css">
+<link rel="stylesheet" type="text/css" href="assets/css/colors.css">
+<link rel="stylesheet" type="text/css" href="assets/css/colors-gh.css">
+<link rel="stylesheet" type="text/css" href="assets/css/colors-g.css">
+<!-- CAROUSEL -->
+	<link rel="stylesheet" href="assets/vendors/owl.carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/vendors/owl.carousel/owl.theme.default.min.css">
+
+	<!-- ANIMATE -->
+	<link rel="stylesheet" type="text/css" href="assets/vendors/animate/animate.css">
+
+	<!-- ANIMATED HEADLINES -->
+	<link rel="stylesheet" type="text/css" href="assets/vendors/animated-headline/css/style.css">
+
+	<!-- FANCY BOX -->
+	<link rel="stylesheet" type="text/css" href="assets/vendors/fancybox/jquery.fancybox.min.css">
+
+</head>
+<body>
+<body>
+<div>
+	<div class="main-header header-shadow cherry-header">
+	    <div class="bg-cherry">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-lg-6 col-md-12">
+	                    <div class="text-white mt-10 text-center--md text-center--sm text-center--xs">
+	                        Helpline 7382653664
+	                    </div>
+	                </div>
+	                <div class="col-lg-6 col-md-12">
+	                    <div class="text-right text-center--md text-center--sm text-center--xs">
+	                        <a class="btn btn-white text-cherry text-size-11 text-bold-600 mt-5 mb-5 mt-10--md mb-10--md mt-10--sm mb-10--sm mt-10--xs mb-10--xs text-uppercase" href="userregister.jsp"><i class="zmdi zmdi-account-o text-size-15 mr-6 float-left mt-1"></i>Login/Sign-Up</a>
+	                        <a class="btn btn-white text-cherry text-size-11 text-bold-600 mt-5 mb-5 mt-10--md mb-10--md mt-10--sm mb-10--sm mt-10--xs mb-10--xs text-uppercase" href="logout.jsp"><i class="zmdi zmdi-power text-size-15 mr-6 float-left mt-1"></i> Logout</a>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	  </div>
+	  
+	  <div class="container">
+
+			<div class="main-header-container">
+
+				<!--  <div class="logo" data-mobile-logo="assets/images/logo/logo-dark.jpg" data-sticky-logo="assets/images/logo/logo-dark.png">
+					<a href="index.html"><img src="assets/images/logo/logo-dark.jpg" alt="logo" height="60px" width="60px"/></a>
+				</div> -->
+
+				<div class="burger-menu">
+					<div class="line-menu line-half first-line"></div>
+					<div class="line-menu"></div>
+					<div class="line-menu line-half last-line"></div>
+				</div> <!-- /BURGER MENU -->
+
+				<nav class="main-menu menu-caret menu-hover-2 submenu-top-border submenu-scale">
+					<ul>
+						<li class="current-menu"><a href="index.html">Home</a></li>
+						<li><a href="parkings.html">Parking and Booking</a>
+						</li>
+						<li><a href="how-it-works.html">How it Works</a></li>
+						<li><a href="about-us.html">About Us</a></li>
+						<li><a href="faqs.html">FAQs</a></li>
+						<li><a href="contact-us.html">Contact Us</a></li>
+					</ul>
+				</nav> <!-- NAVIGATION MENU -->
+
+			</div> <!-- /HEADER CONTAINER -->
+
+		</div> <!-- /CONTAINER -->
+	</div> <!-- /HEADER -->
+	
+	<section class="pt-s5 pb-s5 overlay-wrap" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="assets/images/bg/bg-1.jpg">
+		<div class="container overlay-container pt-s2 pb-s5">
+			<div class="pb-s5">
+				<div class="hero-section-container-tl w-100 h-100 d-flex justify-content-center align-items-center">
+					<div class="text-center mb-s2">
+						<div class="mt-s3 text-white">
+							<h6>Find best parking deals</h6>
+						</div>
+						<div class="mt-s1 mb-s5 text-white">
+							<h1 class="animated-headline letters type mb-s2 text-white text-size-20--xs text-size-30--sm">
+								<span class="headline-wrapper text-cherry text-capitalize">
+									<b class="is-visible">Compare Multiple Locations</b>
+									<b>Lowest prices</b>
+									<b>Secure Booking Process</b>
+									<b>A website you can trust</b>
+								</span>
+							</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- /CONTAINER -->
+	  <div class="overlay bg-v9-dark"></div>
+	</section> <!-- /SECTION -->
+	
+	
+	<section class="bg-v5-light pt-s3 pb-s3">
+		<div class="quote-setting container">
+			<div class="bg-white p-s3 bs-solid bc-light bw-s1 rounded-s2 box-shadow-v1-s5">
+				<form class="quote-hr">
+					<div class="row">
+                        <div class="col-lg-2">
+                            <div class="form-group tooltip_error">
+                                <label for="airport_id">Select Location</label>
+                                <select class="form-control rounded-s5 text-size-12">
+                                    <option value="bristol">PVP</option>
+                                    <option value="exeter">PWD grounds</option>
+                                    <option value="east-midlands">Durga Temple</option>
+                                    <option value="luton">Trend Set</option>
+                                    <option value="manchester">PVR</option>
+                                </select>
+                            </div>
+                        </div>
+						<div class="col-lg-4">
+							<label>Drop off Date Time</label>
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<input type="date" class="form-control text-size-12 rounded-s5 bc-v1-dark">
+								</div>
+								<div class="form-group col-md-3 col-sm-6">
+									<select class="form-control rounded-s5 text-size-12">
+										<option value="00">00</option>
+										<option value="01">01</option>
+										<option value="02">02</option>
+										<option value="03">03</option>
+										<option value="04">04</option>
+										<option value="05">05</option>
+										<option value="06">06</option>
+										<option value="07">07</option>
+										<option value="08">08</option>
+										<option value="09">09</option>
+										<option value="10">10</option>
+										<option value="11">11</option>
+										<option value="12">12</option>
+										<option value="13">13</option>
+										<option value="14">14</option>
+										<option value="15">15</option>
+										<option value="16">16</option>
+										<option value="17">17</option>
+										<option value="18">18</option>
+										<option value="19">19</option>
+										<option value="20">20</option>
+										<option value="21">21</option>
+										<option value="22">22</option>
+										<option value="23">23</option>
+									</select>
+								</div>
+								<div class="form-group col-md-3 col-sm-6">
+									<select class="form-control rounded-s5 text-size-12">
+										<option value="00">00</option>
+										<option value="05">05</option>
+										<option value="10">10</option>
+										<option value="15">15</option>
+										<option value="20">20</option>
+										<option value="25">25</option>
+										<option value="30">30</option>
+										<option value="35">35</option>
+										<option value="40">40</option>
+										<option value="45">45</option>
+										<option value="50">50</option>
+										<option value="55">55</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<label>Arrival Date Time</label>
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<input type="date" class="form-control text-size-12 rounded-s5 bc-v1-dark">
+								</div>
+								<div class="form-group col-md-3 col-sm-6">
+									<select class="form-control rounded-s5 text-size-12">
+										<option value="00">00</option>
+										<option value="01">01</option>
+										<option value="02">02</option>
+										<option value="03">03</option>
+										<option value="04">04</option>
+										<option value="05">05</option>
+										<option value="06">06</option>
+										<option value="07">07</option>
+										<option value="08">08</option>
+										<option value="09">09</option>
+										<option value="10">10</option>
+										<option value="11">11</option>
+										<option value="12">12</option>
+										<option value="13">13</option>
+										<option value="14">14</option>
+										<option value="15">15</option>
+										<option value="16">16</option>
+										<option value="17">17</option>
+										<option value="18">18</option>
+										<option value="19">19</option>
+										<option value="20">20</option>
+										<option value="21">21</option>
+										<option value="22">22</option>
+										<option value="23">23</option>
+									</select>
+								</div>
+								<div class="form-group col-md-3 col-sm-6">
+									<select class="form-control rounded-s5 text-size-12">
+										<option value="00">00</option>
+										<option value="05">05</option>
+										<option value="10">10</option>
+										<option value="15">15</option>
+										<option value="20">20</option>
+										<option value="25">25</option>
+										<option value="30">30</option>
+										<option value="35">35</option>
+										<option value="40">40</option>
+										<option value="45">45</option>
+										<option value="50">50</option>
+										<option value="55">55</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-2">
+							<div class="form-row">
+								<div class="form-group col-md-12">
+									<button type="submit" class="btn bg-cherry text-white text-shadow-s1 text-uppercase text-bold-600 text-size-s1 mt-30 rounded-s5 mb-s1 btn-block">Get Quote</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div> <!-- /CONTAINER -->
+	
+	
+	<div class="container pt-s4">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-sm-12">
+					<div class="mt-s2 mb-s2 box-shadow-parent--hover">
+						<div class="d-flex align-items-center mb-s2">
+							<div class="mr-s2">
+								<div class="text-size-s1 rounded-s3 bg-cherry text-white text-center h--40 w--40 d-flex justify-content-center align-items-center box-shadow-v2-s3-child--hover">
+									<i class="icon-paper-plane"></i>
+								</div>
+							</div>
+							<div>
+								<h2 class="text-size-18 text-bold-600 m-0">Exclusive Prices</h2>
+							</div>
+						</div>
+						<p class="m-0">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12">
+					<div class="mt-s2 mb-s2 box-shadow-parent--hover">
+						<div class="d-flex align-items-center mb-s2">
+							<div class="mr-s2">
+								<div class="text-size-s1 rounded-s3 bg-cherry text-white text-center h--40 w--40 d-flex justify-content-center align-items-center box-shadow-v2-s3-child--hover">
+									<i class="icon-equalizer"></i>
+								</div>
+							</div>
+							<div>
+								<h2 class="text-size-18 text-bold-600 m-0">Expert Customer Support</h2>
+							</div>
+						</div>
+						<p class="m-0">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12">
+					<div class="mt-s2 mb-s2 box-shadow-parent--hover">
+						<div class="d-flex align-items-center mb-s2">
+							<div class="mr-s2">
+								<div class="text-size-s1 rounded-s3 bg-cherry text-white text-center h--40 w--40 d-flex justify-content-center align-items-center box-shadow-v2-s3-child--hover">
+									<i class="icon-screen-desktop"></i>
+								</div>
+							</div>
+							<div>
+								<h2 class="text-size-18 text-bold-600 m-0">Customer Satisfaction</h2>
+							</div>
+						</div>
+						<p class="m-0">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has.</p>
+					</div>
+				</div>
+			</div> <!-- /ROW -->
+		</div> <!-- /CONTAINER -->
+	</section> <!-- /SECTION -->
+	
+	<section class="bg-dark-g pt-s5 pb-s5">
+		<div class="container">
+			<div class="mb-80 text-center">
+				<h6 class="text-bold-700 text-cherry">Parking</h6>
+				<h2 class="text-bold-700 text-white">Vehicle Parking in 3 Simple Steps</h2>
+				<div class="mb-s3">
+					<hr class="mb-0 bc-v1-dark">
+					<hr class="w--60 bs-solid bc-cherry bw-s5 bt-0 bl-0 br-0 mt-0">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-sm-12">
+					<div class="mt-s2 mb-s2 mb-60--md mb-60--sm mb-60--xs box-shadow-parent--hover mt--parent--hover">
+						<div class="bg-white text-center pt-s4 bs-solid bc-light bw-s1 position-relative">
+							<div class="hero-section-container-tl w-100 mt--s4 mt--s5-child">
+								<img class="w--100 rounded-circle bs-solid bc-white bw-s5 box-shadow-v2-s3-child--hover" src="assets/images/logo/logo-dark.jpg" alt="Departure & Arrival Details">
+							</div>
+							<div class="p-s2 mt-s2 mb-s2">
+								<span class="text-cherry text-bold-600">Step 1</span>
+								<h5 class="mt-s1 mb-0 text-bold-600">Set Date and time in a particular location</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12">
+					<div class="mt-s2 mb-s2 mb-60--md mb-60--sm mb-60--xs box-shadow-parent--hover mt--parent--hover">
+						<div class="bg-white text-center pt-s4 bs-solid bc-light bw-s1 position-relative">
+							<div class="hero-section-container-tl w-100 mt--s4 mt--s5-child">
+								<img class="w--100 rounded-circle bs-solid bc-white bw-s5 box-shadow-v2-s3-child--hover" src="assets/images/steps/step-2.png" alt="Your & Vehicle Detail">
+							</div>
+							<div class="p-s2 mt-s2 mb-s2">
+								<span class="text-cherry text-bold-600">Step 2</span>
+								<h5 class="mt-s1 mb-0 text-bold-600">Your details and your Vehicle Details</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12">
+					<div class="mt-s2 mb-s2 mb-60--md mb-60--sm mb-60--xs box-shadow-parent--hover mt--parent--hover">
+						<div class="bg-white text-center pt-s4 bs-solid bc-light bw-s1 position-relative">
+							<div class="hero-section-container-tl w-100 mt--s4 mt--s5-child">
+								<img class="w--100 rounded-circle bs-solid bc-white bw-s5 box-shadow-v2-s3-child--hover" src="assets/images/steps/step-3.png" alt="Payment Detail">
+							</div>
+							<div class="p-s2 mt-s2 mb-s2">
+								<span class="text-cherry text-bold-600">Step 3</span>
+								<h5 class="mt-s1 mb-0 text-bold-600">Slot Booking and Payment Details</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> <!-- /ROW -->
+		</div> <!-- /CONTAINER -->
+	</section> <!-- /SECTION -->
+	
+	
+	 <footer class="footer">
+        <div class="bg-dark pt-60 pb-30">
+            <div class="container">
+                
+                <div class="row">
+                    
+                    <div class="col-md-12">
+                        <div class="bs-solid bc-v2-light bw-s1 bt-0 bl-0 br-0 pb-40 mb-50">
+                            
+                            <div class="row">
+                                
+                                <div class="col-md-6">
+                                    <!-- Begin: LOGO -->
+                                  <!--   <a class="navbar-brand logo text-cherry" href="index.html">
+                                        <img class="full-width max-width-140 m-right-10" alt="Parking" src="assets/images/logo/logo-light.png">
+                                    </a>-->
+                                   <!--  <span class="text-white">/ Find best parking deals</span>-->
+                                    <!-- End: LOGO -->
+                                </div>
+                                
+                                <div class="col-md-6">
+                                    <!-- Begin: SOCIAL -->
+                                    <div class="text-right">
+										<ul class="social list-inline text-size-s1 mb-s2">
+											<li class="list-inline-item mr-s2">
+												<a class="bg-cherry text-white bg-white--hover text-cherry--hover rounded-circle" href="http://www.facebook.com/profile.php?id=" target="_blank">
+													<i class="fab fa-facebook-f"></i>
+												</a>
+											</li>
+											<li class="list-inline-item mr-s2">
+												<a class="bg-cherry text-white bg-white--hover text-cherry--hover rounded-circle" href="http://twitter.com/" target="_blank">
+													<i class="fab fa-twitter"></i>
+												</a>
+											</li>
+											<li class="list-inline-item mr-s2">
+												<a class="bg-cherry text-white bg-white--hover text-cherry--hover rounded-circle" href="http://www.linkedin.com/in/" target="_blank">
+													<i class="fab fa-linkedin-in"></i>
+												</a>
+											</li>
+											<li class="list-inline-item mr-s2">
+												<a class="bg-cherry text-white bg-white--hover text-cherry--hover rounded-circle" href="https://www.instagram.com" target="_blank">
+													<i class="fab fa-instagram"></i>
+												</a>
+											</li>
+											<li class="list-inline-item mr-s2">
+												<a class="bg-cherry text-white bg-white--hover text-cherry--hover rounded-circle" href="https://www.pinterest.com" target="_blank">
+													<i class="fab fa-pinterest-p"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
+                                    <!-- End: SOCIAL -->
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="row">
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="mb-30">
+                            <h5 class="text-bold-700 mb-30 text-white text-uppercase">Contact Us</h5>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-6">
+                                    <div class="row mb-20 map-bg">
+                                        <div class="col-md-12 text-white">
+				                           <!-- <address> <abbr title="Address"><strong>Address:</strong></abbr><br> 1355 Market Street, Suite 900<br> San Francisco, CA 94103 </address>-->
+				                            <address> <abbr title="Phone"><strong>Phone:</strong></abbr><br> 7382653664 </address>
+				                            <address> <abbr title="Email"><strong>Email:</strong></abbr><br> <a class="text-cherry" href="mailto:#">info@website.com</a> </address>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+             </div>
+             </div>
+             </footer>
+            
+            
+            <footer class="bg-dark pt-s1 pb-s1">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<div class="mt-s2 mb-s2 text-white">
+						<p class="m-0 text-white">&copy; Copyright 2020 by <abbr title="Parking"><a href="#" class="text-white">Parking</a></abbr>. All Rights Reserved.</p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<div class="mt-s2 mb-s2 text-white text-right">
+						<a class="text-white" href="#">Privacy Policy</a><a class="text-white" href="#">Terms and Conditions</a>
+					</div>
+				</div>
+			</div> <!-- /ROW -->
+		</div> <!-- /CONTAINER -->
+	</footer>
+    <!-- End: FOOTER -
+    ################################################################## -->
+
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+	<script src="assets/vendors/appear/jquery.appear.min.js"></script>
+	<script src="assets/vendors/jquery.easing/jquery.easing.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/vendors/common/common.min.js"></script>
+
+	<!-- FANCY-BOX -->
+	<script src="assets/vendors/fancybox/jquery.fancybox.min.js"></script>
+
+	<!-- MENU -->
+	<script src="assets/vendors/menu/src/main.menu.js"></script>
+
+	<!-- CAROUSEL -->
+	<script src="assets/vendors/owl.carousel/owl.carousel.min.js"></script>
+
+	<!-- ANIMATED-HEADLINES -->
+	<script src="assets/vendors/animated-headline/js/animated-headline.js"></script>
+
+	<!-- THEME-CUSTOM -->
+	<script src="assets/js/main.js"></script>
+
+	<!-- THEME-INITIALIZATION-FILES -->
+	<script src="assets/js/theme.init.js"></script>
+	<script src="assets/js/custom.js"></script>
+	  
+</body>
+</html>
